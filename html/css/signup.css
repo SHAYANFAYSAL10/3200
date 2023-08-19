@@ -1,0 +1,65 @@
+/* .alert-box
+{
+    background-color: red;
+    height: 40px;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+.alert-box.show
+{
+    opacity: 1;
+}
+
+.alert-msg
+{
+    text-align: center;
+} */
+
+body
+{
+    background-image: linear-gradient(to right, rgb(238, 223, 223),rgb(238, 223, 223));
+}
+
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
+
+.alert-box
+{
+    opacity: 0;
+}
+
+.alert-box.show
+{
+    opacity: 1;
+}
+
+.signup
+{
+    background-color: rgb(218, 202, 202);
+    padding: 30px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3);
+}
+
+.submit-btn
+{
+    width: 100%;
+}
+
+#sub-btn
+{
+    background-color: rgb(52, 44, 44);
+}
+
+#sub-btn:hover
+{
+    background-color: rgb(83, 66, 66);
+}
+
+.term
+{
+    text-decoration: none;
+}

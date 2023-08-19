@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="css/signup.css"> -->
+    <link rel="stylesheet" href="../css/addProduct.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Add product</title>
+</head>
+
+<body>
+    <div class="alert-box">
+        <div class="alert alert-primary d-flex align-items-center" role="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
+                aria-label="Warning:">
+                <path
+                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </svg>
+            <div>
+                <p class="alert-msg mt-3">Error Message</p>
+            </div>
+        </div>
+    </div>
+    <div class="conatiner px-5">
+        <img src="../logo.jpg" class="logo mx-auto d-block mb-4" alt="...">
+        <div class="form">
+            <div class="row">
+                <div class="col-md">
+                    <input type="text" class="form-control" id="product-name" placeholder="Product name">
+                    <div>
+                        <div class="row">
+                            <label for="catagory"></label>
+                            <div class="col">
+                                <select name="" id="catagory" class="form-select mt-2"
+                                    aria-label="Disabled select example">
+                                    <option value="catagory">Catagory</option>
+                                    <option value="laptop">Laptop</option>
+                                    <option value="desktop">Desktop</option>
+                                    <option value="casing">Casing</option>
+                                    <option value="processor">Processor</option>
+                                    <option value="graphics card">Graphics card</option>
+                                    <option value="motherboard">Motherboard</option>
+                                    <option value="monitor">Monitor</option>
+                                    <option value="ram">RAM</option>
+                                    <option value="hdd">HDD</option>
+                                    <option value="ssd">SSD</option>
+                                    <option value="keyboard">Keyboard</option>
+                                    <option value="mouse">Mouse</option>
+                                    <option value="headphone">Headphone</option>
+                                    <option value="printer">Printer</option>
+                                    <option value="router">Router</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="col">
+                                <input type="text" id="product-brand" class="form-control mt-2"
+                                    placeholder="Brand name">
+                            </div>
+                        </div>
+                    </div>
+                    <textarea id="des" class="form-control mt-2" placeholder="Detail description"></textarea>
+                </div>
+
+                <div class="col-md">
+                    <div class="product-info">
+                        <div class="product-image">
+                            <p class="text"></p>
+                        </div>
+                        <div class="upload-image-sec">
+                            <p class="text" alt=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-camera-fill me-2" viewBox="0 0 16 16">
+                                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                    <path
+                                        d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
+                                </svg>Upload image</p>
+                            <div class="upload-catalouge row">
+                                <input type="file" class="fileupload" id="first-file-upload-btn">
+                                <label for="first-file-upload-btn" class="upload-image col mb-2"><img
+                                        src="../insert-image-icon.jpg" id="img1" class="img-input" alt=""></label>
+                                <input type="file" class="fileupload" id="second-file-upload-btn">
+                                <label for="second-file-upload-btn" class="upload-image col mb-2"><img
+                                        src="../insert-image-icon.jpg" id="img2" class="img-input" alt=""></label>
+                                <input type="file" class="fileupload" id="third-file-upload-btn">
+                                <label for="third-file-upload-btn" class="upload-image col mb-2"><img
+                                        src="../insert-image-icon.jpg" id="img3" class="img-input" alt=""></label>
+                                <input type="file" class="fileupload" id="fourth-file-upload-btn">
+                                <label for="fourth-file-upload-btn" class="upload-image col mb-2"><img
+                                        src="../insert-image-icon.jpg" id="img4" class="img-input" alt=""></label>
+                                <div class="btn-group">
+                                    <button id="upload-images" class="btn text-light btn-outline-dark mt-2">Upload images</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="key-features">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col"><input type="text" class="form-control mt-2" id="key1"
+                                    placeholder="Key feature 1 :"></div>
+                            <div class="col"><input type="text" class="form-control mt-2 col" id="key-value1"
+                                    placeholder="Value"></div>
+                        </div>
+
+                    </div>
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col"><input type="text" class="form-control mt-2" id="key2"
+                                    placeholder="Key feature 2 :"></div>
+                            <div class="col"><input type="text" class="form-control mt-2" id="key-value2"
+                                    placeholder="Value"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col"><input type="text" class="form-control mt-2" id="key3"
+                                    placeholder="Key feature 3 :"></div>
+                            <div class="col"><input type="text" class="form-control mt-2" id="key-value3"
+                                    placeholder="Value"></div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col"><input type="text" class="form-control mt-2" id="key4"
+                                    placeholder="Key feature 4 :"></div>
+                            <div class="col"><input type="text" class="form-control mt-2" id="key-value4"
+                                    placeholder="Value"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col"><input type="text" class="form-control mt-2" id="key5"
+                                    placeholder="Key feature 5 :"></div>
+                            <div class="col"><input type="text" class="form-control mt-2" id="key-value5"
+                                    placeholder="Value">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md"></div>
+                </div>
+            </div>
+            <div class="product-price row">
+                <div class="col-sm">
+                    <input type="number" id="actual-price" class="form-control mt-2" placeholder="Actual price">
+                </div>
+                <div class="col-sm">
+                    <input type="number" id="discount" class="form-control mt-2" placeholder="Discount percentage">
+                </div>
+                <div class="col-sm">
+                    <input type="number" id="sell-price" class="form-control mt-2" placeholder="Selling price">
+                </div>
+            </div>
+            <input type="number" id="stock" min="5" class="form-control mt-2" placeholder="Item in stock">
+
+            <div class="btn-group mt-2 mb-4">
+                <button id="add-btn" class="btn btn-outline-dark text-light">Add product</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/addProduct.mjs" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

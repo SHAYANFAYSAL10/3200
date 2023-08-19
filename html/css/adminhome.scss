@@ -1,0 +1,50 @@
+.edit-btn
+{
+    opacity: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.delete
+{
+    opacity: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.show-product:hover
+{
+    .edit-btn
+{
+    opacity: 1;
+}
+
+.delete
+{
+    opacity: 1;
+}
+}
+
+.edit-btn:hover
+{
+    background-color: aqua;
+    transform: scale(1.5);
+	transition: transform 0.25s;
+}
+
+.delete:hover
+{
+    background-color: rgb(239, 56, 74);
+    transform: scale(1.5);
+	transition: transform 0.25s;
+}
+
+// .delete-btn
+// {
+//     opacity: 1;
+// }
+

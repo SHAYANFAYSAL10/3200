@@ -1,0 +1,105 @@
+.navbar
+{
+    background-color: rgb(52, 44, 44);
+    font-family: serif;
+}
+
+.n{
+    margin-bottom: 50px;
+}
+
+.login-logout-popup
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55.5%);
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    top: 40px;
+    width: 200px;
+    transition: .5s;
+    border: 2px solid #f5f5f5;
+}
+
+.user
+{
+    position: relative;
+}
+
+.user-icon
+{
+    cursor: pointer;
+}
+
+.search
+{
+    z-index: 10;
+}
+
+.login-logout-popup::after
+{
+    content: '';
+    position: absolute;
+    top: -7.5px;
+    left: 50%;
+    transform: translateX(-55.5%) rotate(45deg);
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.account-info
+{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#user-btn
+{
+    background-color: rgb(52, 44, 44);
+    width: 100%;
+    pointer-events: cursor;
+}
+
+.hide
+{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.cart-icon
+{
+    cursor: pointer;
+}
+
+.more-btn
+{
+    height: 35px;
+    width: 70px;
+    font-family: serif;
+    border-radius: 5px;
+    background-color: #b55656;
+    color: white;
+    border-color: #f5f5f5;
+    //z-index: 2;
+}
+
+.more-arrow
+{
+    position: absolute;
+    transform: translateX(0%) rotate(45deg);
+    //top: 2px;
+    margin-top: 27px;
+    width: 15px;
+    height: 15px;
+    background: #b55656;
+    border-radius: 1px;
+}
+
+.nav-img
+{
+    height: 35px;
+    width: 70px;
+}

@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(to right, rgb(238, 223, 223), rgb(238, 223, 223));
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+.alert-box {
+  opacity: 0;
+}
+
+.alert-box.show {
+  margin-top: -50px;
+  opacity: 1;
+}
+
+#checkout-btn {
+  background-color: rgb(52, 44, 44);
+}
+
+.form-con {
+  margin-top: -100px;
+}/*# sourceMappingURL=checkout.css.map */

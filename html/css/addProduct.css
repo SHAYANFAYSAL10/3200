@@ -1,0 +1,64 @@
+body {
+  background-image: linear-gradient(to right, rgb(238, 223, 223), rgb(238, 223, 223));
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+.alert-box {
+  opacity: 0;
+}
+
+.alert-box.show {
+  opacity: 1;
+}
+
+#des {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .upload-catalouge {
+    margin: 10px;
+  }
+}
+.fileupload {
+  display: none;
+}
+
+.img-input {
+  height: 150px;
+  width: 150px;
+  background: #fefefe;
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .img-input {
+    height: 100px;
+    width: 100px;
+  }
+}
+.text {
+  font: 1.2em "Fira Sans", sans-serif;
+}
+
+#upload-images {
+  background-color: rgb(52, 44, 44);
+}
+
+#stock {
+  width: 32.2%;
+}
+
+@media (max-width: 768px) {
+  #stock {
+    width: 100%;
+  }
+}
+#add-btn {
+  background-color: rgb(52, 44, 44);
+}/*# sourceMappingURL=addProduct.css.map */

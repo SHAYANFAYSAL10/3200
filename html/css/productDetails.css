@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.image-slider {
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  border: 2px solid #000000;
+}
+
+.product-images img {
+  height: 120px;
+  width: 120px;
+  border: 2px solid #000000;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 950px) {
+  .product-images img {
+    height: 90px;
+    width: 90px;
+  }
+  .image-slider {
+    height: 373px;
+    width: 373px;
+  }
+}
+.product-details {
+  font-family: serif;
+}
+
+.details-des {
+  font-family: serif;
+}
+
+.button-group button {
+  background-color: rgb(52, 44, 44);
+}
+
+.quick {
+  font-family: serif;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding-left: 4px;
+  -webkit-clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+  width: 150px;
+  margin-bottom: 0;
+}
+
+.similar {
+  font-family: serif;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  -webkit-clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+  width: 200px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.heading {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  -webkit-clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+  width: 200px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.black-line {
+  height: 2px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=productDetails.css.map */

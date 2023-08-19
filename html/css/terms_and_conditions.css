@@ -1,0 +1,23 @@
+.terms {
+  font-family: serif;
+}
+
+.text {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  -webkit-clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+  width: 500px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.black-line {
+  height: 2px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=terms_and_conditions.css.map */

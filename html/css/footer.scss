@@ -1,0 +1,68 @@
+.footer-pusher
+{
+    min-height: 80vh;
+}
+
+.footer
+{
+    font-family: serif;
+    margin-top: 20px;
+    background-color: rgb(52, 44, 44);
+    color: white;
+}
+
+.footer a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover
+{
+    color: #ff7d7d;
+}
+
+.foot-icon i
+{
+    padding: 2px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.facebook:hover
+{
+    color: #4267B2;
+    background-color: white;
+    transform: scale(1.5);
+    transition: transform 0.25s;
+}
+
+.youtube:hover
+{
+    color: #FF0000;
+    background-color: white;
+    transform: scale(1.5);
+    transition: transform 0.25s;
+}
+
+.instragram:hover
+{
+    color: #bc2a8d;
+    background-color: white;
+    transform: scale(1.5);
+    transition: transform 0.25s;
+}
+
+.twitter:hover
+{
+    color: #1DA1F2;
+    background-color: white;
+    transform: scale(1.5);
+    transition: transform 0.25s;
+}
+
+.footer-bottom
+{
+    padding: 10px;
+    background-color: rgb(28, 24, 24);
+}
